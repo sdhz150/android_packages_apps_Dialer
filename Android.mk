@@ -134,6 +134,8 @@ LOCAL_STATIC_JAVA_LIBRARIES := \
 	libphonenumber \
 	volley \
 
+LOCAL_STATIC_JAVA_LIBRARIES += libSudaPinYin
+
 LOCAL_STATIC_ANDROID_LIBRARIES := \
 	android-support-core-ui \
 	$(ANDROID_SUPPORT_DESIGN_TARGETS) \
